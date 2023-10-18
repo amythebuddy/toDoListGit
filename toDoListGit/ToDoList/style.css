@@ -1,0 +1,33 @@
+body{
+    text-align: center;
+    padding: 0 auto;
+    margin: 0 auto;
+}
+input{
+    width: 30%;
+    border-radius: 5px;
+}
+button{
+    color: white;
+    border-radius: 5px;
+    height: 2rem;
+}
+#button{
+    background-color: black;
+    height: 1.5rem;
+}
+.remove{
+    background-color: red;
+}
+.add{
+    background-color: green;
+    float: right;
+}
+.toDoItem {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(201, 201, 201);
+    width: 40%;
+    margin: 0 auto;
+}
