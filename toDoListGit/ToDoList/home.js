@@ -15,6 +15,7 @@ function addActivity(){
     removeBtn.classList.add("remove");
     container.classList.add("toDoItem");
     let newElement = document.createElement("p");
+    newElement.classList.add("content");
     newElement.innerText = input;
     finishedBtn.onclick = function finished(){
         newElement.style.textDecoration = "line-through";

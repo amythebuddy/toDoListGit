@@ -4,30 +4,41 @@ body{
     margin: 0 auto;
 }
 input{
-    width: 30%;
+    width: 50%;
+    font-size: 1rem;
+    height: 1.5rem;
     border-radius: 5px;
 }
 button{
     color: white;
     border-radius: 5px;
     height: 2rem;
+    width: 5rem;
 }
 #button{
-    background-color: black;
-    height: 1.5rem;
+    background-color: hotpink;
+    width: 2rem;
+    height: 2rem;
 }
 .remove{
     background-color: red;
+    margin: 0.5rem 0.5rem 0 0;
+    float: inline-end;
+    font-size: 1rem;
 }
 .add{
     background-color: green;
-    float: right;
+    float: inline-end;
+    margin: 0.5rem 0.5rem 0 0;
+    font-size: 1rem;
 }
 .toDoItem {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: rgb(201, 201, 201);
-    width: 40%;
-    margin: 0 auto;
+    background-color: rgb(237, 237, 237);
+    border: 1px black solid;
+    border-radius: 5px;
+    width: 98%;
+    margin: 1rem auto;
+}
+.content{
+    display: inline-block;
 }
